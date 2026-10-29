@@ -6,7 +6,7 @@
 
 // Единственная точка настройки Telegram-канала заказа.
 // При смене оператора достаточно изменить эту строку.
-const TELEGRAM_URL = 'https://t.me/beautysupply_ru';
+const TELEGRAM_URL = 'https://t.me/beautysupplyrubot';
 
 (function () {
   'use strict';
@@ -178,3 +178,4 @@ const TELEGRAM_URL = 'https://t.me/beautysupply_ru';
     init();
   }
 })();
+
