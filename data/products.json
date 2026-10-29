@@ -1,7 +1,7 @@
 {
   "shop": {
     "name": "Beauty Supply",
-    "city": "Москва",
+    "city": "Россия",
     "currency": "RUB",
     "avito_profile": "https://www.avito.ru/user/b2165ff5492372c90fab55f7223f9d3b/profile/all",
     "seller_rating": 5.0,
@@ -20,14 +20,18 @@
       "category": "Косметика",
       "price_rub": 2960,
       "status": "in_stock",
-      "city": "Москва",
-      "short_description": "Румяна Hourglass. Товар в Москве. Наличие, оттенок и комплектацию уточняйте у оператора.",
-      "photos": [],
+      "city": "Россия",
+      "short_description": "Компактные румяна с мраморным переплетением пигмента и светоотражающей пудры из коллекции Ambient Lighting.",
+      "photos": [
+        "assets/products/hourglass-ambient-lighting-blush-01.jpg"
+      ],
       "source": "Avito",
       "source_url": "https://www.avito.ru/moskva/krasota_i_zdorove/hourglass_rumyana_7942405497",
       "stock": null,
       "preorder_note": "",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-10-29",
+      "photo_alt": "Открытый футляр запечённых румян Hourglass Ambient Lighting Blush рядом с упаковкой и вкладышем",
+      "price_note": "Цена подтверждена 29.10.2026"
     },
     {
       "id": "BS-002",
@@ -36,14 +40,18 @@
       "category": "Косметика",
       "price_rub": 6000,
       "status": "in_stock",
-      "city": "Москва",
-      "short_description": "Тени для век Charlotte Tilbury Pillow Talk. Товар в Москве.",
-      "photos": [],
+      "city": "Россия",
+      "short_description": "Четырёхцветная палетка теней для век в фирменной розово-бежевой гамме коллекции Pillow Talk.",
+      "photos": [
+        "assets/products/charlotte-tilbury-pillow-talk-palette-01.jpg"
+      ],
       "source": "Avito",
       "source_url": "https://www.avito.ru/moskva/krasota_i_zdorove/charlotte_tilbury_pillow_talk_teni_7942010246",
       "stock": null,
       "preorder_note": "",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-10-29",
+      "photo_alt": "Открытая палетка теней из четырёх розово-нюдовых оттенков Charlotte Tilbury Pillow Talk Eyeshadow Palette",
+      "price_note": "Цена подтверждена 29.10.2026"
     },
     {
       "id": "BS-003",
@@ -52,14 +60,18 @@
       "category": "Косметика",
       "price_rub": 5200,
       "status": "in_stock",
-      "city": "Москва",
-      "short_description": "Тени для век Hourglass. Товар в Москве.",
-      "photos": [],
+      "city": "Россия",
+      "short_description": "Четырёхцветная палетка теней для век в нейтральной матовой гамме Minimalist в золотистом футляре.",
+      "photos": [
+        "assets/products/hourglass-curator-minimalist-palette-01.jpg"
+      ],
       "source": "Avito",
       "source_url": "https://www.avito.ru/moskva/krasota_i_zdorove/hourglass_teni_7942160038",
       "stock": null,
       "preorder_note": "",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-10-29",
+      "photo_alt": "Открытая палетка теней из четырёх оттенков Hourglass Curator Minimalist Palette с вкладышем",
+      "price_note": "Цена подтверждена 29.10.2026"
     },
     {
       "id": "BS-004",
@@ -68,30 +80,38 @@
       "category": "Уход за телом",
       "price_rub": 8500,
       "status": "in_stock",
-      "city": "Москва",
-      "short_description": "Лифтинг-крем для тела линии VOL.U.LIFT. Товар в Москве.",
-      "photos": [],
+      "city": "Россия",
+      "short_description": "Ухаживающий крем для кожи тела из специализированной линии IMAGE Skincare VOL.U.LIFT.",
+      "photos": [
+        "assets/products/image-vol-u-lift-body-cream-01.jpg"
+      ],
       "source": "Avito",
       "source_url": "https://www.avito.ru/moskva/krasota_i_zdorove/lifting_krem_dlya_tela_vol.u.lift_8165981546",
       "stock": null,
       "preorder_note": "",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-10-29",
+      "photo_alt": "Синяя туба и коробка крема для тела IMAGE Skincare VOL.U.LIFT Body",
+      "price_note": "Цена подтверждена 29.10.2026"
     },
     {
       "id": "BS-005",
       "title": "Концентрат VOL.U.LIFT",
       "brand": "IMAGE Skincare",
-      "category": "Уход за телом",
+      "category": "Уход за кожей",
       "price_rub": 12900,
       "status": "in_stock",
-      "city": "Москва",
-      "short_description": "Средство IMAGE Skincare линии VOL.U.LIFT. Товар в Москве.",
-      "photos": [],
+      "city": "Россия",
+      "short_description": "Концентрированное средство для ухода за кожей лица и шеи из линии IMAGE Skincare VOL.U.LIFT.",
+      "photos": [
+        "assets/products/image-vol-u-lift-concentrate-01.jpg"
+      ],
       "source": "Avito",
       "source_url": "https://www.avito.ru/moskva/krasota_i_zdorove/image_skincare_vol.u.lift_8166119490",
       "stock": null,
       "preorder_note": "",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-10-29",
+      "photo_alt": "Туба и упаковка средства для лица IMAGE Skincare VOL.U.LIFT GLP-1 4D Skin Rebound Complex",
+      "price_note": "Цена подтверждена 29.10.2026"
     },
     {
       "id": "BS-006",
@@ -100,15 +120,18 @@
       "category": "Уход за кожей",
       "price_rub": 4900,
       "status": "in_stock",
-      "city": "Москва",
-      "short_description": "Увлажняющий дневной минеральный крем с SPF 30, варианты с тинтом и без. Товар в Москве.",
-      "photos": [],
+      "city": "Россия",
+      "short_description": "Дневной минеральный увлажняющий крем с защитой SPF 30 в двух исполнениях: без тинта и с выравнивающим тинтом.",
+      "photos": [
+        "assets/products/image-daily-prevention-spf-30-variants-01.jpg"
+      ],
       "source": "Avito",
       "source_url": "https://www.avito.ru/moskva/krasota_i_zdorove/uvlazhnyayuschiy_dnevnoy_krem_spf_30_daily_prevention_8166255881",
       "stock": null,
       "preorder_note": "",
-      "price_note": "Цена продавца от 28.10.2026 по данным MATRIX2 (переписка с продавцом): 4 900 ₽. Архивная цена Avito от 26.10.2026: 5 900 ₽.",
-      "updated_at": "2026-10-29"
+      "price_note": "Цена подтверждена 29.10.2026",
+      "updated_at": "2026-10-29",
+      "photo_alt": "Два варианта крема IMAGE Skincare Daily Prevention SPF 30 из поставки: с тинтом и без тинта"
     },
     {
       "id": "BS-007",
@@ -117,14 +140,18 @@
       "category": "Уход за кожей",
       "price_rub": 8500,
       "status": "in_stock",
-      "city": "Москва",
-      "short_description": "Восстанавливающий ночной крем с витамином C. Товар в Москве.",
-      "photos": [],
+      "city": "Россия",
+      "short_description": "Насыщенный вечерний крем для лица из классической линии IMAGE Skincare Vital C.",
+      "photos": [
+        "assets/products/image-vital-c-night-cream-01.jpg"
+      ],
       "source": "Avito",
       "source_url": "https://www.avito.ru/moskva/krasota_i_zdorove/vosstanavlivayuschiy_nochnoy_krem_s_vitaminom_s_8166335454",
       "stock": null,
       "preorder_note": "",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-10-29",
+      "photo_alt": "Банка и фирменная бело-оранжевая коробка крема IMAGE Skincare Vital C Hydrating Repair Crème",
+      "price_note": "Цена подтверждена 29.10.2026"
     },
     {
       "id": "BS-008",
@@ -133,14 +160,18 @@
       "category": "Уход за кожей",
       "price_rub": 6700,
       "status": "in_stock",
-      "city": "Москва",
-      "short_description": "Усиленный смарт-крем с SPF 75. Товар в Москве.",
-      "photos": [],
+      "city": "Россия",
+      "short_description": "Дневной минеральный крем высокой степени защиты SPF 75 из солнцезащитной линии Daily Prevention.",
+      "photos": [
+        "assets/products/image-daily-prevention-spf-75-01.jpg"
+      ],
       "source": "Avito",
       "source_url": "https://www.avito.ru/moskva/krasota_i_zdorove/usilennyy_smart-krem_spf75_8166674710",
       "stock": null,
       "preorder_note": "",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-10-29",
+      "photo_alt": "Флакон минерального солнцезащитного крема IMAGE Skincare Daily Prevention Advanced Smartblend SPF 75",
+      "price_note": "Цена подтверждена 29.10.2026"
     },
     {
       "id": "BS-009",
@@ -149,15 +180,18 @@
       "category": "Уход за кожей",
       "price_rub": 10400,
       "status": "in_stock",
-      "city": "Москва",
-      "short_description": "Крем IMAGE MD Biotech Longevity, 50 г. Товар в Москве.",
-      "photos": [],
+      "city": "Россия",
+      "short_description": "Крем для лица из профессиональной линии IMAGE MD в банке с вакуумным дозатором, номинальная масса 50 г.",
+      "photos": [
+        "assets/products/image-md-biotech-longevity-creme-01.jpg"
+      ],
       "source": "Avito",
       "source_url": "https://www.avito.ru/moskva/krasota_i_zdorove/image_md_biotech_krem_8230842563",
       "stock": null,
       "preorder_note": "",
-      "price_note": "Цена продавца от 28.10.2026 по данным MATRIX2 (переписка с продавцом): 10 400 ₽. Архивная цена Avito от 26.10.2026: 12 999 ₽.",
-      "updated_at": "2026-10-29"
+      "price_note": "Цена подтверждена 29.10.2026",
+      "updated_at": "2026-10-29",
+      "photo_alt": "Матовая банка крема IMAGE MD Biotech Longevity Crème массой 50 г с помповым дозатором"
     },
     {
       "id": "BS-010",
@@ -166,14 +200,18 @@
       "category": "Уход за кожей",
       "price_rub": 11999,
       "status": "in_stock",
-      "city": "Москва",
-      "short_description": "Сыворотка IMAGE MD Restoring Youth. Товар в Москве.",
-      "photos": [],
+      "city": "Россия",
+      "short_description": "Концентрированная сыворотка для ухода за кожей лица из профессиональной линии IMAGE MD.",
+      "photos": [
+        "assets/products/image-md-restoring-youth-serum-01.jpg"
+      ],
       "source": "Avito",
       "source_url": "https://www.avito.ru/moskva/krasota_i_zdorove/syvorotka_molodosti_image_md_restoring_youth_serum_8165960870",
       "stock": null,
       "preorder_note": "",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-10-29",
+      "photo_alt": "Флакон с дозатором и коробка концентрированной сыворотки IMAGE MD Restoring Youth Serum",
+      "price_note": "Цена подтверждена 29.10.2026"
     },
     {
       "id": "BS-011",
@@ -181,15 +219,19 @@
       "brand": "IMAGE Skincare",
       "category": "Уход за кожей",
       "price_rub": 11500,
-      "status": "preorder",
-      "city": "Москва",
-      "short_description": "Крем для лица из пептидной коллекции The MAX, 48 г. Новая позиция пополнения склада.",
-      "photos": [],
+      "status": "in_stock",
+      "city": "Россия",
+      "short_description": "Крем для лица из пептидной коллекции IMAGE Skincare The MAX, подтверждённая масса 48 г.",
+      "photos": [
+        "assets/products/image-the-max-supply.jpg"
+      ],
       "source": "MATRIX2",
       "source_url": "https://aifirsts.github.io/MATRIX2/index.html#catalogue",
       "stock": 0,
-      "preorder_note": "Пополнение склада в Москве от 28.10.2026, цена из переписки с продавцом. Наличие и срок поступления уточняйте у оператора.",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-10-29",
+      "photo_alt": "Упаковки средств линии IMAGE Skincare The MAX из поставки: крем для лица The MAX Crème 48 г и крем для век The MAX Eye Crème 15 мл",
+      "price_note": "Цена подтверждена 29.10.2026",
+      "is_new": true
     },
     {
       "id": "BS-012",
@@ -197,15 +239,19 @@
       "brand": "IMAGE Skincare",
       "category": "Уход за кожей",
       "price_rub": 6800,
-      "status": "preorder",
-      "city": "Москва",
-      "short_description": "Крем для кожи вокруг глаз из коллекции The MAX, 15 мл. Новая позиция пополнения склада.",
-      "photos": [],
+      "status": "in_stock",
+      "city": "Россия",
+      "short_description": "Крем для деликатной зоны вокруг глаз из коллекции IMAGE Skincare The MAX, объём 15 мл.",
+      "photos": [
+        "assets/products/image-the-max-supply.jpg"
+      ],
       "source": "MATRIX2",
       "source_url": "https://aifirsts.github.io/MATRIX2/index.html#catalogue",
       "stock": 0,
-      "preorder_note": "Пополнение склада в Москве от 28.10.2026, цена из переписки с продавцом. Наличие и срок поступления уточняйте у оператора.",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-10-29",
+      "photo_alt": "Упаковки средств линии IMAGE Skincare The MAX из поставки: крем для кожи вокруг глаз The MAX Eye Crème 15 мл и крем для лица The MAX Crème 48 г",
+      "price_note": "Цена подтверждена 29.10.2026",
+      "is_new": true
     },
     {
       "id": "BS-013",
@@ -213,15 +259,19 @@
       "brand": "IMAGE MD",
       "category": "Уход за кожей",
       "price_rub": 11500,
-      "status": "preorder",
-      "city": "Москва",
-      "short_description": "Сыворотка с витамином C линии IMAGE MD, 30 мл. Новая позиция пополнения склада. Отдельный продукт линейки, не Restoring Youth Serum из базового ассортимента.",
-      "photos": [],
+      "status": "in_stock",
+      "city": "Россия",
+      "short_description": "Сыворотка с витамином C из профессиональной линии IMAGE MD, подтверждённый объём 30 мл.",
+      "photos": [
+        "assets/products/image-md-power-c-and-biotech-supply.jpg"
+      ],
       "source": "MATRIX2",
       "source_url": "https://aifirsts.github.io/MATRIX2/index.html#catalogue",
       "stock": 0,
-      "preorder_note": "Пополнение склада в Москве от 28.10.2026, цена из переписки с продавцом. Наличие и срок поступления уточняйте у оператора.",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-10-29",
+      "photo_alt": "Средства линии IMAGE MD из поставки: сыворотка Restoring Power-C Serum 30 мл и банка крема Biotech Longevity Crème 50 г",
+      "price_note": "Цена подтверждена 29.10.2026",
+      "is_new": true
     }
   ]
 }

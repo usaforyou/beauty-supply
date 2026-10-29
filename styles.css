@@ -540,6 +540,11 @@ button {
   color: var(--color-amber);
 }
 
+.badge--new {
+  background: var(--color-primary-soft);
+  color: var(--color-primary);
+}
+
 .product-id {
   font-size: var(--text-xs);
   color: var(--color-text-muted);

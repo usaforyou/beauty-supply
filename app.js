@@ -1,7 +1,7 @@
 /* ============================================================
    Beauty Supply — app.js
    Загружает каталог из data/products.json и отрисовывает секции
-   «В наличии» и «Предзаказ». Без библиотек и внешних CDN.
+   «Товары в наличии» и «Новое поступление». Без библиотек и внешних CDN.
    ============================================================ */
 
 // Единственная точка настройки Telegram-канала заказа.
@@ -44,8 +44,8 @@ const TELEGRAM_URL = 'https://t.me/beautysupply_ru';
       return (
         '<img class="product-photo" src="' +
         escapeHtml(product.photos[0]) +
-        '" alt="Фото товара: ' +
-        escapeHtml(product.title) +
+        '" alt="' +
+        escapeHtml(product.photo_alt || 'Фото товара: ' + product.title) +
         '" loading="lazy" decoding="async">'
       );
     }
@@ -64,9 +64,13 @@ const TELEGRAM_URL = 'https://t.me/beautysupply_ru';
 
   function renderCard(product) {
     var isPreorder = product.status === 'preorder';
+    var isNew = !!product.is_new;
     var badge = isPreorder
       ? '<span class="badge badge--preorder">Предзаказ</span>'
       : '<span class="badge badge--in-stock">В наличии</span>';
+    if (isNew) {
+      badge += ' <span class="badge badge--new">Новое поступление</span>';
+    }
     var note = '';
     if (isPreorder && product.preorder_note) {
       note =
@@ -159,8 +163,8 @@ const TELEGRAM_URL = 'https://t.me/beautysupply_ru';
             return p && HIDDEN_STATUSES.indexOf(p.status) === -1;
           });
 
-        renderSection(grids.in_stock, products.filter(function (p) { return p.status === 'in_stock'; }));
-        renderSection(grids.preorder, products.filter(function (p) { return p.status === 'preorder'; }));
+        renderSection(grids.in_stock, products.filter(function (p) { return p.status === 'in_stock' && !p.is_new; }));
+        renderSection(grids.preorder, products.filter(function (p) { return p.is_new || p.status === 'preorder'; }));
       })
       .catch(function () {
         renderError(grids.in_stock);
